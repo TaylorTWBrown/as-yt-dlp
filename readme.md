@@ -35,7 +35,7 @@ Run the script, passing the show slug with the `-ShowName` parameter. Example:
 To download each episode with `yt-dlp`, pipe the output:
 
 ```powershell
-.\extract-episodes.ps1 -ShowName 'assy-mc-gee' | ForEach-Object { yt-dlp $_ }
+.\extract-episodes.ps1 -ShowName 'assy-mc-gee' -Download
 ```
 
 The script prints one absolute episode URL per line to stdout, suitable for piping or saving to a file.

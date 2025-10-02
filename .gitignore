@@ -1,0 +1,6 @@
+# ignore all directories, for downloads
+**/
+
+# unignore a specific directory and its contents
+!keep-me/
+!keep-me/**
